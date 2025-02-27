@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    label{
+        display: inline-block;
+        width: 250px;
+        margin-bottom: 5px;
+    }
+</style>
+<body>
+    <form action="">
+        <label for="name">Họ và tên:</label>
+        <input type="text" name="name">
+        <br>
+        <label for="bday">Ngày sinh:</label>
+        <input type="date" name="bday">
+        <br>
+        <label for="sex">Giới tính:</label>
+        <input type="radio" name="sex" id="nam"> Nam
+        <input type="radio" name="sex" id="nữ"> Nữ
+        <br>
+        <label for="sdt">Số điện thoại:</label>
+        <input type="number" name="sdt">
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" name="email">
+        <br>
+        <label for="tencongty">Tên công ty:</label>
+        <input type="text" name="tencongty">
+        <br>
+        <label for="vaitro">Vai trò trong công ty:</label>
+        <select name="vaitro">
+            <option value="ceo">Giám đốc điều hành (CEO)</option>
+        </select>
+        <br>
+        <label for="quymocongty">Quy mô công ty:</label>
+        <select name="quymocongty">
+            <option value="quymo">Doanh nghiệp nhỏ</option>
+        </select>
+        <br>
+        <label for="nganhnghe">Ngành nghề công ty:</label>
+        <input type="text" name="nganhnghe">
+        <br>
+        <label for="lydo">Lý do tham gia câu lạc bộ:</label>
+        <textarea name="lydo" cols="20" rows="2"></textarea>
+        <br>
+        <label for="kinhnghiem">Kinh nghiệm lãnh đạo:</label>
+        <textarea name="kinhnghiem" cols="20" rows="2"></textarea>
+        <br>
+        <label for="muctieu">Mục tiêu khi tham gia câu lạc bộ:</label>
+        <textarea name="muctieu" cols="20" rows="2"></textarea>
+        <br>
+        <label for="skmuonthamgia">Chương trình sự kiện muốn tham gia:</label>
+        <input type="checkbox" style="margin-right: 5px;"> Networking  
+        <input type="checkbox" style="margin-right: 5px;"> Workshops 
+        <input type="checkbox"> Hội thảo 
+        <br>
+        <label for="dknhanbantin">Đăng ký nhận bản tin:</label>
+        <input type="checkbox" name="yes" id="yes">
+        <label for="yes">Có</label>
+        <br>
+        <button>Đăng ký hội viên</button>
+    </form>
+</body>
+</html>

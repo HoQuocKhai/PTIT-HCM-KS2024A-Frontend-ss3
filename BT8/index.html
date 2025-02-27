@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    label{
+        display: inline-block;
+        width: 200px;
+        margin-bottom: 5px;
+    }
+</style>
+<body>
+    <form action="">
+        <label for="name">Họ và tên:</label>
+        <input type="text" name="name">
+        <br>
+        <label for="bday">Ngày sinh:</label>
+        <input type="date" name="bday">
+        <br>
+        <label for="sex">Giới tính:</label>
+        <input type="radio" name="sex" id="nam"> Nam
+        <input type="radio" name="sex" id="nữ"> Nữ
+        <br>
+        <label for="cccd">Số căn cước công dân:</label>
+        <input type="number" name="cccd">
+        <br>
+        <label for="ngaycap">Ngày cấp:</label>
+        <input type="date" name="ngaycap">
+        <br>
+        <label for="noicap">Nơi cấp:</label>
+        <input type="text" name="noicap">
+        <br>
+        <label for="sdt">Số điện thoại:</label>
+        <input type="number" name="sdt">
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" name="email">
+        <br>
+        <label for="dcthuongchu">Địa chỉ thường chú:</label>
+        <textarea name="dcthuongchu"></textarea>
+        <br>
+        <label for="dctamchu">Địa chỉ tạm chú:</label>
+        <textarea name="dctamchu"></textarea>
+        <br>
+        <label for="loaicccd">Loại căn cước công dân:</label>
+        <input type="radio" name="moi"  id="moi"> Căn cước công dân mớ
+        <input type="radio" name="moi" id="cu"> Căn cước công dân cũ
+        <br>
+        <label for="dantoc">Dân tộc:</label>
+        <input type="text" name="dantoc">
+        <br>
+        <label for="tongiao">Tôn giáo:</label>
+        <input type="text" name="tongiao">
+        <br>
+        <label for="quoctich">Quốc tịch:</label>
+        <input type="text" name="quoctich" value="Việt Nam">
+        <br>
+        <label for="chame">Họ tên cha/mẹ:</label>
+        <input type="text" name="chame">
+        <br>
+        <label for="scc/cmchame">Số CMND/CCCD của cha mẹ:</label>
+        <input type="number" name="scc/cmchame">
+        <br>
+        <label for="tinh/thanhpho">Tỉnh/Thành phố:</label>
+        <select name="tinh/thanhpho">
+            <option value="Chọn Tỉnh/Thành phố">Chọn Tỉnh/Thành phố</option>
+        </select>
+        <br>
+        <button>Gửi thông tin</button>
+    </form>
+</body>
+</html>
